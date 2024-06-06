@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Roboto+Mono:wght@700&display=swap');
-
 /************************************************************
 *
 *               Variables
@@ -102,7 +101,7 @@ html, body {
     bottom:0px;
     left:0px;
     background-color: var(--color-white);
-    background-image: url(/project/images/back.jpeg);
+    background-image: url(../images/back.jpeg);
     background-repeat: repeat; 
     opacity: 0.07;
     z-index: -1;
@@ -285,20 +284,20 @@ main section img {
 }
 
 .slide-1 {
-    background-image: url("/images/1.ill.jpeg");
+    background-image: url("../images/1.ill.jpeg");
 }
 .slide-2 {
-    background-image: url("/images/2.ill.jpeg");
+    background-image: url("../images/2.ill.jpeg");
 }
 .slide-3 {
-    background-image: url("/images/3.ill.jpeg");
-}
+    background-image: url("../images/3.ill.jpeg");
+} 
 
 .transbox {
     background-color: rgba(15, 15, 15, 0.7);
     /* Opacity can be given to background with rgba*/
     width:fit-content;
-    margin: 0;
+    margin: 0; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -321,7 +320,7 @@ main section img {
 }
   
 .wrapper-image-div {
-    background-image: url('/project/images/racing_flag_flags_icon_153950.ico');
+    background-image: url('../images/racing_flag_flags_icon_153950.ico');
     background-position: center;
     background-size:cover;
     width: 10%;
